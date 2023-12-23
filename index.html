@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Villa</title>
+    <link rel="stylesheet" href="scss/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/Logo.png" alt="" style="cursor: pointer" />
+      <ul class="header__list">
+        <select>
+          <option value="">Year</option>
+          <option value="">2021</option>
+          <option value="">2022</option>
+          <option value="">2023</option>
+        </select>
+        <select>
+          <option value="">Rating</option>
+          <option value="">10.0</option>
+          <option value="">9.0</option>
+          <option value="">8.0</option>
+        </select>
+        <select>
+          <option value="">Category</option>
+          <option value="">Action</option>
+          <option value="">Fantasy</option>
+          <option value="">Adventure</option>
+        </select>
+      </ul>
+      <form action="#">
+        <input type="text" />
+        <img
+          src="./img/Icon.png"
+          alt=""
+          style="position: absolute; margin-left: 250px; cursor: pointer"
+        />
+        <button>Subscribe</button>
+      </form>
+    </header>
+    <section class="main">
+      <div class="wrapper">
+        <ul class="slider">
+          <li class="slider__item">
+            <img src="./img/Component 1.png" alt="" />
+          </li>
+          <li class="slider__item">
+            <img src="./img/1001619.png" alt="" />
+          </li>
+          <li class="slider__item">
+            <img
+              src="./img/Fast and Furious 9 Wallpaper 1920x1080 by sachso74.png"
+              alt=""
+            />
+          </li>
+          <li class="slider__item">
+            <img src="./img/wallpaperflare.png" alt="" />
+          </li>
+        </ul>
+      </div>
+      <div class="group">
+        <div class="button__left" onclick="fnPrevious()"></div>
+        <div class="button__right" onclick="fnNext()"></div>
+      </div>
+    </section>
+    <section class="movie">
+      <ul class="movie__list">
+        <li>
+          <img src="./img/Poster.png" alt="Movie Photo" />
+          <p>USA, 2016</p>
+          <h1>Stranger Things</h1>
+          <h4>
+            Action, <br />
+            Adventure, <br />
+            Horror
+          </h4>
+        </li>
+        <li>
+          <img src="./img/Poster (1).png" alt="Movie Photo" />
+          <p>
+            USA, 2018 - <br />
+            Current
+          </p>
+          <h1>Batman Begin</h1>
+          <h4>Action, Thriller,</h4>
+        </li>
+        <li>
+          <img src="./img/Poster (2).png" alt="Movie Photo" />
+          <p>USA, 2019</p>
+          <h1>
+            Spider-man <br />
+            Into the spider <br />
+            verse
+          </h1>
+          <h4>Action,Thriller</h4>
+        </li>
+        <li>
+          <img src="./img/Poster (3).png" alt="Movie Photo" />
+          <p>USA, 2020</p>
+          <h1>
+            Shang-Chi <br />
+            Legend of the <br />
+            ten Rign
+          </h1>
+          <h4>Action</h4>
+        </li>
+        <li>
+          <img src="./img/Poster (4).png" alt="Movie Photo" />
+          <p>USA, 2021</p>
+          <h1>Dune</h1>
+          <h4>Action, Thriller</h4>
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <div class="soc">
+        <img src="./img/Social.png" alt="Socials" class="soc" />
+      </div>
+      <ul class="footer__tags">
+        <li>Conditions of Use</li>
+        <li>Privacy & Policy</li>
+        <li>Press Room</li>
+      </ul>
+      <p>© 2022 MovieVilla by Tanmay Jitendra Thakare</p>
+    </footer>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
